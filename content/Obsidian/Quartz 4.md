@@ -2,7 +2,7 @@
 ```
 cd ローカルのQuartzのディレクトリ
 git add .
-git commit -m "add logo" 
+git commit -m "何を変更したかのメッセージ" 
 git push
 ```
 
