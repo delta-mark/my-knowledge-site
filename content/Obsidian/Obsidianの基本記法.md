@@ -115,9 +115,11 @@ c & d
 特殊相対性理論では$E=mc^2$という式が重要です。
 ```
 
-$$\begin{vmatrix}a & b\\
+$$
+\begin{vmatrix}a & b\\
 c & d 
-\end{vmatrix}=ad-bc$$
+\end{vmatrix}=ad-bc
+$$
 特殊相対性理論では$E=mc^2$という式が重要です。
 
 ### コード
