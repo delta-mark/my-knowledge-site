@@ -65,7 +65,7 @@ const config: QuartzConfig = {
         keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false, hardLineBreaks: true }),
-      Plugin.GitHubFlavoredMarkdown(),
+      Plugin.GitHubFlavoredMarkdown({ enableSmartyPants: true }),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
