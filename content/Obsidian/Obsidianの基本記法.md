@@ -54,7 +54,6 @@ Obsidianで設定したオプションやプラグインの情報はすべてVau
 ```
 [[便利なアプリ]]
 [[Markdown Cheat Sheet.pdf#page=2]]
-
 ```
 
 [[便利なアプリとサービス]]
@@ -66,9 +65,9 @@ Obsidianで設定したオプションやプラグインの情報はすべてVau
 ![[Markdown Cheat Sheet.pdf]]
 ```
 
-![[Publish/Obsidian/0_assets/Pasted image 20240810213841.png]]
+![[Pasted image 20240810213841.png]]
 
-![[Publish/Obsidian/0_assets/Markdown Cheat Sheet.pdf]]
+![[Markdown Cheat Sheet.pdf]]
 
 ### 外部リンク
 ```
