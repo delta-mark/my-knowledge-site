@@ -39,13 +39,13 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#232a2e",       // 背景：Enchanted特有のより深い暗緑色
+          light: "#333c43",       // 背景
           lightgray: "#2d353b",   // 境界線
           gray: "#859289",        // 補助テキスト
           darkgray: "#d3c6aa",    // 本文：柔らかなアイボリー
-          dark: "#e6e2cc",        // 見出し：輝くベージュ
-          secondary: "#a7c080",   // リンク：幻想的な若草色
-          tertiary: "#dbbc7f",    // ホバー：温かいアンバー（琥珀色）
+          dark: "#da6362",        // 見出し
+          secondary: "#569d79",   // リンク
+          tertiary: "#83c092",    // ホバー
           highlight: "rgba(143, 159, 169, 0.15)",
         },
       }
