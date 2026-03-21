@@ -9,3 +9,16 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+publish.bat
+custom-social-image-preview-dark.png
+custom-social-image-preview-light.png
+giscus-discussion.png
+giscus-example.png
+giscus-repo.png
+giscus-results.png
+github-init-repo-options.png
+github-quick-setup.png
+quartz-layout-mobile.png
+quartz-layout-tablet.png
+social-image-preview-dark.png
+social-image-preview-light.png
