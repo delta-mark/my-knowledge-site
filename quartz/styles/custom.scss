@@ -11,15 +11,13 @@
   border-radius: 8px;   /* 角を少し丸くするとモダンに見えます */
 }
 
-.page-title {
-  font-size: 0 !important;
-  &::before {
-    content: "";
-    display: block;
-    background-image: url('/my-knowledge-site/static/logo.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 50px;
-  }
+.page-title a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background-image: url('/my-knowledge-site/static/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
 }
