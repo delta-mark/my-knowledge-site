@@ -2,3 +2,11 @@
 @use "./themes";
 
 // put your custom CSS here!
+/* ノート内の画像が幅を超えないようにする */
+.popover-hint, article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto; /* 中央寄せにして上下に余白を作る（お好みで） */
+  border-radius: 8px;   /* 角を少し丸くするとモダンに見えます */
+}
