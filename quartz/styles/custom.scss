@@ -10,3 +10,17 @@
   margin: 1.5rem auto; /* 中央寄せにして上下に余白を作る（お好みで） */
   border-radius: 8px;   /* 角を少し丸くするとモダンに見えます */
 }
+
+.page-title {
+  font-size: 0 !important;
+  &::before {
+    content: "";
+    display: block;
+    background-image: url('/my-knowledge-site/static/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 50px;
+  }
+}
+保存したら教えてください。
