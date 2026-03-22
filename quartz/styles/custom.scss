@@ -58,3 +58,27 @@ body table {
     padding-right: 0 !important;
   }
 }
+
+/* はみ出しを防止し、強制的に折り返す設定 */
+article, .article-title, .content-meta {
+  // 長い英単語、URL、ISBNなどを途中で折り返す
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word; 
+  
+  // 横方向のはみ出しをカット、または制御
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* タイトル部分が大きすぎてはみ出す場合の調整 */
+.article-title {
+  font-size: 1.8rem !important; // 文字サイズを少し小さくして収める
+  line-height: 1.3;
+}
+
+/* 箇条書きの中の長い文字列（ISBNなど）対策 */
+li {
+  word-break: break-all; 
+}
+
