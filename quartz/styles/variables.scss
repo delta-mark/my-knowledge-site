@@ -24,7 +24,7 @@ $semiBoldWeight: 600;
 $normalWeight: 400;
 
 $mobileGrid: (
-  templateRows: "auto auto auto auto auto",
+  templateRows: "auto auto auto auto",
   templateColumns: "auto",
   rowGap: "5px",
   columnGap: "5px",
@@ -32,7 +32,6 @@ $mobileGrid: (
     '"grid-sidebar-left"\
       "grid-header"\
       "grid-center"\
-      "grid-sidebar-right"\
       "grid-footer"',
 );
 $tabletGrid: (
