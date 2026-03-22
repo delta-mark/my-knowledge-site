@@ -36,15 +36,3 @@ body table {
   margin: 1rem auto !important;
 }
 
-@media (max-width: 800px) {
-  .right.sidebar {
-    display: none !important;
-  }
-  body .page>#quartz-body div.center {
-    min-width: calc(100% - 3rem) !important;
-    max-width: calc(100% - 3rem) !important;
-    width: calc(100% - 3rem) !important;
-  }
-}
-
-
