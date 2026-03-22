@@ -36,49 +36,36 @@ body table {
   margin: 1rem auto !important;
 }
 
-// 画面幅が狭い時（スマホなど）のレイアウト修正
 @media all and (max-width: 750px) {
-  // コンテンツ領域を囲む要素の制限を解除
-  .center, .article-title, article {
+  // 1. 最上位のコンテナから横幅を制限する
+  body, #quartz-body {
+    overflow-x: hidden !important;
+    width: 100vw !important;
+  }
+
+  // 2. コンテンツ領域を画面内に強制的に収める
+  .center, article, .article-title {
     width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-    padding-left: 1.2rem !important; // 読みやすい程度の左余白
-    padding-right: 1.2rem !important; // 右側の巨大な空白を埋める
+    max-width: calc(100vw - 2rem) !important; // 左右に少し余白を残して画面内に収める
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 1rem !important;
+    box-sizing: border-box !important;
+    overflow-wrap: break-word !important;
+    word-break: break-all !important; // どんな文字列も端で強制改行
   }
 
-  // ページ全体のコンテナ設定を上書き
-  .page .center {
-    flex-basis: 100% !important;
+  // 3. はみ出しの主な原因である「タイトル」を小さくする
+  .article-title {
+    font-size: 1.5rem !important; // さらに小さく
+    display: block !important;
+    white-space: normal !important; // 折り返しを許可
   }
 
-  // リスト（箇条書き）の余白も調整
-  ul, ol {
-    padding-left: 1.5rem !important;
-    padding-right: 0 !important;
+  // 4. 水平線の突き抜け防止
+  hr {
+    width: 100% !important;
+    margin: 1rem 0 !important;
   }
-}
-
-/* はみ出しを防止し、強制的に折り返す設定 */
-article, .article-title, .content-meta {
-  // 長い英単語、URL、ISBNなどを途中で折り返す
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word; 
-  
-  // 横方向のはみ出しをカット、または制御
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-/* タイトル部分が大きすぎてはみ出す場合の調整 */
-.article-title {
-  font-size: 1.8rem !important; // 文字サイズを少し小さくして収める
-  line-height: 1.3;
-}
-
-/* 箇条書きの中の長い文字列（ISBNなど）対策 */
-li {
-  word-break: break-all; 
 }
 
