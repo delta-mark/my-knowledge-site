@@ -37,7 +37,15 @@ body table {
 }
 
 @media (max-width: 800px) {
+  .right.sidebar {
+    display: none !important;
+  }
   #quartz-body {
-    display: block !important;
+    grid-template-columns: auto !important;
+    grid-template-areas:
+      "grid-sidebar-left"
+      "grid-header"
+      "grid-center"
+      "grid-footer" !important;
   }
 }
