@@ -37,13 +37,7 @@ body table {
 }
 
 @media (max-width: 800px) {
-  .right.sidebar {
-    width: 0 !important;
-    min-width: 0 !important;
-    max-width: 0 !important;
-    overflow: hidden !important;
-    padding: 0 !important;
-    margin: 0 !important;
+  #quartz-body {
+    display: block !important;
   }
 }
-
