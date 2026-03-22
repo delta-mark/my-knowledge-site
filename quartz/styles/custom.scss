@@ -36,12 +36,16 @@ body table {
   margin: 1rem auto !important;
 }
 
-@media (max-width: 768px) {
-  .page-header, .center, .page {
-    width: 100% !important;
+@media (max-width: 800px) {
+  .right.sidebar {
+    display: none !important;
+  }
+  body .page>#quartz-body div.center {
+    min-width: 100% !important;
     max-width: 100% !important;
-    margin-right: 0 !important;
+    padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
   }
 }
+
 
