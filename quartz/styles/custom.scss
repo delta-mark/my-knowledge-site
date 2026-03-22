@@ -36,38 +36,9 @@ body table {
   margin: 1rem auto !important;
 }
 
-@media all and (max-width: 750px) {
-  // 1. 【重要】コンテンツを中央に保ちつつ、幅を広げる（前回の成功ベース）
-  .center, article {
-    display: block !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-    box-sizing: border-box !important;
-  }
-
-  // 2. 【はみ出し対策】タイトルが画面を突き抜けないようにする
-  .article-title {
-    font-size: 1.6rem !important; // 巨大すぎるのを防ぐ
-    overflow-wrap: break-word !important;
-    word-break: break-all !important; // 文字列の途中で改行を許可
-    white-space: normal !important;
-    line-height: 1.3;
-    display: block !important;
-    width: 100% !important;
-    margin-right: 0 !important;
-  }
-
-  // 3. 【はみ出し対策】ISBNなどの長い英数字・記号を強制改行
-  p, li, span, code {
-    overflow-wrap: break-word !important;
-    word-break: break-all !important; 
-  }
-
-  // 4. 水平線が右に突き出すのを防ぐ
-  hr {
-    width: 100% !important;
-    box-sizing: border-box !important;
+@media (max-width: 768px) {
+  .center {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
