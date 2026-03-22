@@ -35,3 +35,7 @@ body table {
   width: 100% !important;
   margin: 1rem auto !important;
 }
+
+article[data-slug="index"] h1.article-title {
+  display: none;
+}
