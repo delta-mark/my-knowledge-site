@@ -1,4 +1,6 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QovKkXfwMXM?si=Exjh27QDeAEpz9_5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/QovKkXfwMXM?si=Exjh27QDeAEpz9_5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+00:00
 
 **Interviewer:** I've got Johnny here of Man With A Mission. How are you doing? How are you feeling? Reading Festival, the sun is shining. 
 
@@ -8,13 +10,14 @@
 
 **Jean-Ken Johnny:** The vibe? It was amazing. I mean,  like Reading Festival, It is actually one of my favourite festivals in the whole wide world. I mean, a lot of my favourite bands performed here, it's truly like a dream come true to us, you know.
 
-**Interviewer:** Tell me, why is it your favorite fest? Was it just cuz... have you actually come here as a punter or have you only ever been here to perform?
+**Interviewer:** Tell me, why it's your favorite fest. Was it just cuz... have you actually come here as a punter or have you only ever been here to perform?
 
 **Jean-Ken Johnny:** We've been to the UK a couple of times by touring but I've never been in the Reading Festival before, so. And, actually it’s amazing, really.
 
 ---
+00:42
 
-**Interviewer:** I need to talk... what is life as a wolf like in the music industry?
+**Interviewer:** And, I need to talk... what is life as a wolf like in the music industry?
 
 **Jean-Ken Johnny:** It's quite different from you guys, you know. We're half human, half wolf. What disappoints us most... is like summertime. It's cool in the UK, but like in Japan, It's damn hot, you know. 
 
@@ -22,11 +25,12 @@
 
 **Jean-Ken Johnny:** No, this is not a mask. This is what we look like.
 
-**Interviewer:** I know nobody's in the heat like that fur. You can't survive in that fur. I mean on stage as well, the heat must be insane. Are you lucky here? I mean this is like the hottest it ever gets. So if you're okay in this? 
+**Interviewer:** I know nobody's in the heat like that fur. You can't survive in that fur. I mean on stage as well, the heat must be insane. Were you lucky here? I mean this is like the hottest it ever gets. So if you're okay in this? 
 
 **Jean-Ken Johnny:** This is smooth for us, man.
 
 ---
+01:19
 
 **Interviewer:** and you were actually born in a lab, that's correct right?
 
@@ -53,6 +57,7 @@
 **Jean-Ken Johnny:** That's right. I mean it just moved our heart, you know. So if we had a chance to get out of that ice one day, we definitely wanted to perform.
 
 ---
+02:04
 
 **Interviewer:** And was there any specific artists that sort of inspired the wolf family?
 
@@ -67,6 +72,7 @@
 **Jean-Ken Johnny:** Yeah, I definitely want to. Actually today, we met Don Broco, that toured with us before. Those guys are probably playing tomorrow, right?
 
 ---
+02:54
 
 **Interviewer:** And your fifth album _Chasing the Horizon_ came out this year. How has the response been? Has everybody loved it?
 
@@ -81,6 +87,7 @@
 **Jean-Ken Johnny:** In our live in Japan, we need a lot of security, yeah. Hopefully, yeah, we get to... you know... hire a lot of security in the UK too.
 
 ---
+03:41
 
 **Interviewer:** And do you ever find... you know, obviously a part of your life was spent doing evil stuff. When you're performing, sometimes people can piss you off, I'm sure stuff might happen. Do you ever feel yourself going back into the evil wolf life?
 
